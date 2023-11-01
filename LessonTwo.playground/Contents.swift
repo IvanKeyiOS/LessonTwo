@@ -91,7 +91,7 @@ let currentYear: Int = 2023
 let years: Int = currentYear - yearOfBirth
 let months: Int = (currentMonth - mothOfBirth) * years
 let days: Int = ((currentDay + currentMonth * daysOfMonth) - (dayOfBirth + mothOfBirth * daysOfMonth)) * months
-let minutes: Int = (days * minutesInHour) * days
+let minutes: Int = (days * minutesInHour) * days * 24
 //let seconds: Int = minutes * secondsInMinute * minutes
 
 /*
